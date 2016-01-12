@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Demos\AsymmetricEncryption.cs" />
+    <Compile Include="Demos\FromCertificates.cs" />
     <Compile Include="Demos\Hashing.cs" />
     <Compile Include="Demos\HybridEncryption.cs" />
     <Compile Include="Demos\SecurePasswordStorage.cs" />
@@ -55,6 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
