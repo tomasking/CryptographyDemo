@@ -12,8 +12,9 @@ namespace CryptographyDemo
             //IRunnableDemo demo = new SecurePasswordStorage();
             //IRunnableDemo demo = new SymmetricEncryption();
             //IRunnableDemo demo = new AsymmetricEncryption();
-            IRunnableDemo demo = new HybridEncryption();
-
+            //IRunnableDemo demo = new HybridEncryption();
+            IRunnableDemo demo = new HybridEncryptionDemo();
+            
             demo.Run();
 
             Console.WriteLine();

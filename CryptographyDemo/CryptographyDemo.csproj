@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +47,7 @@
     <Compile Include="Demos\AsymmetricEncryption.cs" />
     <Compile Include="Demos\Hashing.cs" />
     <Compile Include="Demos\HybridEncryption.cs" />
+    <Compile Include="Demos\HybridEncryptionDemo.cs" />
     <Compile Include="Demos\SecurePasswordStorage.cs" />
     <Compile Include="Demos\SymmetricEncryption.cs" />
     <Compile Include="IRunnableDemo.cs" />
